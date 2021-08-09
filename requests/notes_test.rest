@@ -11,3 +11,14 @@ Content-Type: application/json
     "content": "Testing",
     "important": true
 }
+
+###
+PUT http://localhost:3001/api/notes/610fe86b36582639ecd86713
+Content-Type: application/json
+
+{
+    "important": true
+}
+
+###
+DELETE http://localhost:3001/api/notes/610fe9adc7517c1654edca10
